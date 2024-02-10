@@ -1,7 +1,7 @@
 {
   "name": "nodejs-sample-rest-api",
   "version": "1.0.0",
-  "description": "A sample nodejs REST API - in-memory cache",
+  "description": "Sample NodeJS REST API Service with In-memory Cache",
   "main": "index.js",
   "type": "module",
   "scripts": {

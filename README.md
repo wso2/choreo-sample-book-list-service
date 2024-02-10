@@ -11,8 +11,7 @@ The below table gives a brief overview of the important files in the service.
 
 | Filepath               | Description                                                                                                                                                  |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| app.mjs                | The Node.js (JavaScript) based service code.                                                                                                                  |
-| Dockerfile             | Choreo uses this Dockerfile to build the container image of the application.                                                                                  |
+| app.mjs                | The Node.js (JavaScript) based service code.                                                                      
 | .choreo/endpoints.yaml | Choreo-specific configuration that provides information about how Choreo exposes the service.                                                                |
 | openapi.yaml           | OpenAPI contract of the service. This is required to publish our service as a managed API. This openapi.yaml file is referenced by the .choreo/endpoints.yaml. |
 
@@ -23,16 +22,16 @@ To engage with these examples:
 1. **Fork the Repository**: Begin by forking this repository to your GitHub account.
 2. Log into [Choreo](https://console.choreo.dev/).
 3. Create a project.
-4. In newly created project, create a Service component with Dockerfile build pack.
+4. In newly created project, create a Service component with NodeJs build pack.
 5. Test the service. 
 
 Please refer to the Choreo documentation under the [Develop a REST API](https://wso2.com/choreo/docs/develop-components/develop-services/develop-a-rest-api/#step-1-create-a-service-component-from-a-dockerfile) section to learn more.
 
 ### Use the following configuration when creating this component in Choreo:
 
-- Build Pack: **Dockerfile**
-- Dockerfile Path: `Dockerfile`
-- Docker Context Path: Keep this field empty
+- Build Pack: **NodeJS**
+- NodeJS Project Directory: `/`
+- Language Version: `20.x.x`
 
 ## Run Application Locally
 
