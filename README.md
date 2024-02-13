@@ -25,7 +25,7 @@ To engage with these examples:
 4. In newly created project, create a Service component with NodeJs build pack.
 5. Test the service. 
 
-Please refer to the Choreo documentation under the [Develop a REST API](https://wso2.com/choreo/docs/develop-components/develop-services/develop-a-rest-api/#step-1-create-a-service-component-from-a-dockerfile) section to learn more.
+Please refer to the Choreo documentation under the [Deploy Your First Service](https://wso2.com/choreo/docs/quick-start-guides/deploy-your-first-service/) section to learn more.
 
 ### Use the following configuration when creating this component in Choreo:
 
